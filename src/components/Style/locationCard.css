@@ -1,0 +1,44 @@
+.location {
+  background-color: #072226;
+  border: 1px solid #5555;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px 0;
+  width: 90%;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.location:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px white;
+  transition: transform 0.5s, box-shadow 0.5s;
+  opacity: 1;
+}
+
+.location_name {
+  color: #79b724;
+}
+
+.location_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.location_item {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.location_item span:last-child {
+  color: #999;
+}
